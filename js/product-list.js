@@ -6,7 +6,7 @@ class ProductList {
     this.productService
       .getProducts()
       .then(() => this.renderProducts())
-      .then(() => this.addEventListeners());    
+      .then(() => this.addEventListeners());
   }
   async renderProducts() {
     let productListDomString = '';
